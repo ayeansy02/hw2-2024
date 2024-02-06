@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', 'Verdana', sans-serif;
+    background-color: #000000;
+    color: #ffffff; 
+    margin: 20px 20px 0; 
+  }
+
+h1 {
+    font-size: 42px; 
+    text-align: center; 
+    padding: 15px; 
+}
+  
+h2 {
+    font-size: 30px; /* Font size of 30 pixels */
+    color: #0D0D0D; /* Dark gray font color using the hexadecimal value */
+  }
+
+p {
+    font-size: 24px; /* a. Font size of 24 pixels */
+    padding: 10px 10px 0 0; /* b. Padding of 10 pixels on the top and left only */
+}
+
+img {
+    max-width: 250px; /* a. Maximum width of 250 pixels */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+    border: 10px dashed #ffffff; /* c. White 10px dashed border */
+}
+
+div {
+    min-height: 125px; /* A. Minimum height of at least 125 pixels */
+    padding: 20px; /* B. Padding of 20 pixels on all sides */
+    border: 3px solid #ffffff; /* C. 3px solid white border on all sides */
+}
+
+.introduction {
+    border-radius: 15px; /* a. 15px border-radius to curve the edges */
+    margin-top: 15px; /* b. Margin of 15px on the top */
+    line-height: 2; /* c. Double-spaced text */
+}
+
+.red {
+    background-color: #ff0000; /* a. Background color in hexadecimal value for red */
+    text-align: right; /* b. Text aligned on the right side */
+    margin-left: 50px; /* c. Left margin of 50px */
+    border-bottom: 2px solid #000000; /* d. 2px border on the bottom in black */
+    border-left: 5px solid #000000; /* d. 5px border on the left in black */
+}
+  
+.blue {
+    background-color: #0000ff; /* a. Background color in hexadecimal value for blue */
+    text-align: left; /* b. Text aligned on the left side */
+    margin-right: 50px; /* c. Right margin of 50px */
+    border-right: 5px solid #000000; /* d. 5px border on the right in black */
+    border-top: 2px solid #000000; /* d. 2px border on the top in black */
+}
+  
+.blue h1,
+.blue p {
+color: #C4C4C4; /* e. Text color for heading and paragraph */
+}
+
+.blue h2 {
+    color: #C4C4C4; /* Change the color to your desired value, here using red for example */
+}
+
+.yellow {
+    background-color: #ffff00; /* a. Background color in hexadecimal value for yellow */
+    text-align: right; /* b. Text aligned on the right side */
+    margin-left: 50px; /* c. Left margin of 50px */
+    border-left: 5px solid #000000; /* d. 5px border on the left in black */
+    border-bottom: 2px solid #000000; /* d. 2px border on the bottom in black */
+}
+  
+.yellow p {
+    color: #707070; /* e. Text color for paragraph */
+}
+
+.green {
+    background-color: #00D800; /* a. Background color in hexadecimal value for green */
+    text-align: left; /* b. Text aligned on the left side */
+    margin-right: 50px; /* c. Right margin of 50px */
+    border-right: 5px solid #000000; /* d. 5px border on the right in black */
+    border-top: 2px solid #000000; /* d. 2px border on the top in black */
+}
+
+footer {
+    background: linear-gradient(
+      25%,
+      #000000,
+      #0000ff 25%,
+      #0066ff 70%,
+      #000000
+    ); /* a. Gradient background */
+    border: 5px solid #ffffff; /* b. 5px solid white border */
+    color: #ffffff; /* Text color for better contrast */
+    padding: 20px; /* Add padding for better aesthetics */
+}
+
+footer p {
+    font-size: 20px; /* a. Font size of 20 pixels */
+    text-align: right; /* a. Text aligned to the right */
+    padding: 15px 0 15px 15px; /* b. Padding of 15px on the top, right, and bottom; no padding on the left */
+}
