@@ -18,7 +18,10 @@ h2 {
 
 p {
     font-size: 24px; /* a. Font size of 24 pixels */
-    padding: 10px 10px 0 0; /* b. Padding of 10 pixels on the top and left only */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: none;
+    padding-bottom: none;
 }
 
 img {
@@ -84,7 +87,7 @@ color: #C4C4C4; /* e. Text color for heading and paragraph */
 }
 
 .green {
-    background-color: #00D800; /* a. Background color in hexadecimal value for green */
+    background-color: #008500; /* a. Background color in hexadecimal value for green */
     text-align: left; /* b. Text aligned on the left side */
     margin-right: 50px; /* c. Right margin of 50px */
     border-right: 5px solid #000000; /* d. 5px border on the right in black */
@@ -109,5 +112,8 @@ footer {
 footer p {
     font-size: 20px; /* a. Font size of 20 pixels */
     text-align: right; /* a. Text aligned to the right */
-    padding: 15px 0 15px 15px; /* b. Padding of 15px on the top, right, and bottom; no padding on the left */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: none;
 }
