@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-size: 30px; /* Font size of 30 pixels */
     color: #0D0D0D; /* Dark gray font color using the hexadecimal value */
-  }
+}
 
 p {
     font-size: 24px; /* a. Font size of 24 pixels */
@@ -22,7 +22,7 @@ p {
 }
 
 img {
-    max-width: 250px; /* a. Maximum width of 250 pixels */
+    width: 250px; /* a. Maximum width of 250 pixels */
     display: block; /* Center the image */
     margin: 0 auto; /* Center the image */
     border: 10px dashed #ffffff; /* c. White 10px dashed border */
@@ -46,6 +46,8 @@ div {
     margin-left: 50px; /* c. Left margin of 50px */
     border-bottom: 2px solid #000000; /* d. 2px border on the bottom in black */
     border-left: 5px solid #000000; /* d. 5px border on the left in black */
+    border-top: none;
+    border-right: none;
 }
   
 .blue {
@@ -54,6 +56,8 @@ div {
     margin-right: 50px; /* c. Right margin of 50px */
     border-right: 5px solid #000000; /* d. 5px border on the right in black */
     border-top: 2px solid #000000; /* d. 2px border on the top in black */
+    border-bottom: none;
+    border-left: none;
 }
   
 .blue h1,
@@ -71,6 +75,8 @@ color: #C4C4C4; /* e. Text color for heading and paragraph */
     margin-left: 50px; /* c. Left margin of 50px */
     border-left: 5px solid #000000; /* d. 5px border on the left in black */
     border-bottom: 2px solid #000000; /* d. 2px border on the bottom in black */
+    border-top: none;
+    border-right: none;
 }
   
 .yellow p {
@@ -83,6 +89,8 @@ color: #C4C4C4; /* e. Text color for heading and paragraph */
     margin-right: 50px; /* c. Right margin of 50px */
     border-right: 5px solid #000000; /* d. 5px border on the right in black */
     border-top: 2px solid #000000; /* d. 2px border on the top in black */
+    border-bottom: none;
+    border-left: none;
 }
 
 footer {
